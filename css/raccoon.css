@@ -19,35 +19,36 @@ h1 {
   text-transform: uppercase;
 }
 
-/* HEDGEHOG STYLES */
+/* RACCOON STYLES */
 :root {
-  --hedgehog-size: 300px;
-  --hedgehog-skin: #704532;
-  --hedgehog-belly: #ecc59d;
-  --hedgehog-nose: #3b291d;
-  --hedgehog-snout: #d8a77c;
+  --raccoon-size: 300px;
+  --raccoon-skin: #819da9;
+  --raccoon-dark-fur: #414E5F;
+  --raccoon-belly: #e9eef4;
+  --raccoon-nose: #1a1a1a;
+  --raccoon-snout: #c1cbd4;
 }
   
     @media (max-width: 350px) {
       :root {
-        --hedgehog-size: 200px;
-        --hedgehog-skin: black;
+        --raccoon-size: 200px;
+        --raccoon-skin: black;
       }
     }
   
-    .hedgehog {
+    .raccoon {
       position: relative;
       margin: auto;
       display: block;
       margin-top: 5%;
-      width: var(--hedgehog-size, 300px);
-      height: var(--hedgehog-size, 300px);
+      width: var(--raccoon-size, 300px);
+      height: var(--raccoon-size, 300px);
     }
   
     .right-cheek {
       top: 15%;
       left: 35%;
-      background: var(--hedgehog-belly, white);
+      background: var(--raccoon-belly, white);
       width: 60%;
       height: 70%;
       border-radius: 70% 70% 60% 60%;
@@ -56,7 +57,7 @@ h1 {
     .left-cheek {
       top: 15%;
       left: 5%;
-      background: var(--hedgehog-belly, white);
+      background: var(--raccoon-belly, white);
       width: 60%;
       height: 70%;
       border-radius: 70% 70% 60% 60%;
@@ -65,16 +66,16 @@ h1 {
     .belly {
       top: 60%;
       left: 2.5%;
-      background: var(--hedgehog-belly, white);
+      background: var(--raccoon-belly, white);
       width: 95%;
       height: 100%;
       border-radius: 120% 120% 100% 100%;
     }
   
-    .hedgehog-top {
+    .raccoon-top {
       top: 10%;
       left: 25%;
-      background: var(--hedgehog-skin, gray);
+      background: var(--raccoon-skin, gray);
       width: 50%;
       height: 45%;
       border-radius: 70% 70% 60% 60%;
@@ -274,10 +275,10 @@ h1 {
 
   /* END SPINE STYLES */
 
-    .hedgehog-bottom {
+    .raccoon-bottom {
       top: 40%;
       left: 23.5%;
-      background: var(--hedgehog-skin, gray);
+      background: var(--raccoon-skin, gray);
       width: 53%;
       height: 45%;
       border-radius: 70% 70% 100% 100%;
@@ -286,7 +287,7 @@ h1 {
     .right-hand {
       top: 5%;
       left: 25%;
-      background: var(--hedgehog-skin, black);
+      background: var(--raccoon-skin, black);
       width: 30%;
       height: 60%;
       border-radius: 30% 30% 120% 30%;
@@ -317,18 +318,34 @@ h1 {
     .left-hand {
       top: 0%;
       left: 75%;
-      background: var(--hedgehog-skin, gray);
+      background: var(--raccoon-skin, gray);
       width: 30%;
       height: 60%;
       border-radius: 30% 30% 30% 120%;
       transform: rotate(-45deg);
       z-index: -1;
     }
+
+    .tail {
+      top: -35%;
+      left: 95%;
+      background: var(--raccoon-dark-fur, black);
+      width: 30%;
+      height: 60%;
+      border-radius: 30% 30% 120% 30%;
+      transform: rotate(224deg);
+      /* z-index: -1;
+      animation-duration: 3s;
+      animation-name: wave;
+      animation-iteration-count: infinite;
+      transform-origin:0% 0%;
+      animation-timing-function: linear; */
+    }
   
     .right-feet {
       top: 80%;
       left: 65%;
-      background: var(--hedgehog-nose, orange);
+      background: var(--raccoon-nose, orange);
       width: 15%;
       height: 30%;
       border-radius: 50% 50% 50% 50%;
@@ -339,13 +356,31 @@ h1 {
     .left-feet {
       top: 80%;
       left: 20%;
-      background: var(--hedgehog-nose, orange);
+      background: var(--raccoon-nose, orange);
       width: 15%;
       height: 30%;
       border-radius: 50% 50% 50% 50%;
       transform: rotate(80deg);
       z-index: -2222;
     }
+
+  /* EYES STYLES */
+  .right-mask {
+    top: 38%;
+    left: 0%;
+    background: #414E5F;
+    width: 45%;
+    height: 25%;
+    border-radius: 50%;
+  }
+  .left-mask {
+    top: 38%;
+    left: 55%;
+    background: #414E5F;
+    width: 45%;
+    height: 25%;
+    border-radius: 50%;
+  }
   
     .right-eye {
       top: 45%;
@@ -365,28 +400,28 @@ h1 {
       border-radius: 50%;
     }
   
-    .sparkle {
+    /* .sparkle {
       top: 25%;
       left:-23%;
-      background: var(--hedgehog-belly);
+      background: var(--raccoon-belly);
       width: 150%;
       height: 100%;
       border-radius: 50%;
-    }
-    /* .sparkle {
+    } */
+    .sparkle {
       top: 25%;
       left: 15%;
       background: white;
       width: 35%;
       height: 35%;
       border-radius: 50%;
-    }  */
+    } 
   
     /* EARS STYLES */
     .right-ear {
       top: -1%;
       left: 67%;
-      background: var(--hedgehog-belly, orange);
+      background: var(--raccoon-belly, orange);
       width: 25%;
       height: 30%;
       border-radius: 50% 50% 50% 50%;
@@ -397,7 +432,7 @@ h1 {
     .left-ear {
       top: -1%;
       left: 7%;
-      background: var(--hedgehog-belly, orange);
+      background: var(--raccoon-belly, orange);
       width: 25%;
       height: 30%;
       border-radius: 50% 50% 50% 50%;
@@ -430,7 +465,7 @@ h1 {
     .right-inner-ear {
       top: 6%;
       left: 74%;
-      background: var(--hedgehog-snout, orange);
+      background: var(--raccoon-snout, orange);
       width: 15%;
       height: 20%;
       border-radius: 50% 50% 50% 50%;
@@ -440,7 +475,7 @@ h1 {
     .left-inner-ear {
       top: 6%;
       left: 11%;
-      background: var(--hedgehog-snout, orange);
+      background: var(--raccoon-snout, orange);
       width: 15%;
       height: 20%;
       border-radius: 50% 50% 50% 50%;
@@ -450,7 +485,7 @@ h1 {
     /* END EARS STYLES */
 
     .blush-right {
-      top: 58%;
+      top: 63%;
       left: 15%;
       background: #ffadbc;
       width: 15%;
@@ -459,7 +494,7 @@ h1 {
     }
   
     .blush-left {
-      top: 58%;
+      top: 63%;
       left: 70%;
       background: #ffadbc;
       width: 15%;
@@ -470,7 +505,7 @@ h1 {
     .snout-top {
       top: 60%;
       left: 39%;
-      background: var(--hedgehog-snout, orange);
+      background: var(--raccoon-snout, orange);
       width: 22%;
       height: 15%;
       border-radius: 50%;
@@ -487,7 +522,7 @@ h1 {
     .nose {
       top: 65%;
       left: 44%;
-      background: var(--hedgehog-nose, orange);
+      background: var(--raccoon-nose, orange);
       width: 11%;
       height: 8%;
       border-radius: 50%;
@@ -498,11 +533,11 @@ h1 {
       background-color: #c6ffe4;
     }
   
-    .hedgehog * {
+    .raccoon * {
       position: absolute;
     }
 
-/* END HEDGEHOG STYLES */
+/* END RACCOON STYLES */
 
 /* FOOTER STYLES */
 footer {
