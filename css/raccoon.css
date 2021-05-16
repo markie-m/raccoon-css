@@ -327,12 +327,12 @@ h1 {
     }
 
     .tail {
-      top: -35%;
+      top: -41%;
       left: 95%;
       background: var(--raccoon-dark-fur, black);
       width: 30%;
       height: 60%;
-      border-radius: 30% 30% 120% 30%;
+      border-radius: 30% 30% 360% 125%;
       transform: rotate(224deg);
       /* z-index: -1;
       animation-duration: 3s;
@@ -341,11 +341,35 @@ h1 {
       transform-origin:0% 0%;
       animation-timing-function: linear; */
     }
+    .stripe1 {
+      background: var(--raccoon-skin, gray);
+      width: 96%;
+      height: 15%;
+      top: 20%;
+      border-radius: 30% 90% 45% 90%;
+      /* transform: skew(75%); */
+    }
+    .stripe2 {
+      background: var(--raccoon-skin, gray);
+      width: 93%;
+      height: 12%;
+      top: 50%;
+      border-radius: 30% 90% 45% 90%;
+      /* transform: skew(75%); */
+    }
+    .stripe3 {
+      background: var(--raccoon-skin, gray);
+      width: 74%;
+      height: 10%;
+      top: 75%;
+      border-radius: 30% 90% 45% 90%;
+      /* transform: skew(75%); */
+    }
   
     .right-feet {
       top: 80%;
       left: 65%;
-      background: var(--raccoon-nose, orange);
+      background: var(--raccoon-nose, black);
       width: 15%;
       height: 30%;
       border-radius: 50% 50% 50% 50%;
@@ -368,10 +392,11 @@ h1 {
   .right-mask {
     top: 38%;
     left: 0%;
-    background: #414E5F;
+    background: var(--raccoon-dark-fur, #414E5F);
     width: 45%;
     height: 25%;
     border-radius: 50%;
+    transform: rotate(8deg);
   }
   .left-mask {
     top: 38%;
@@ -380,24 +405,27 @@ h1 {
     width: 45%;
     height: 25%;
     border-radius: 50%;
+    transform: rotate(352deg);
   }
   
     .right-eye {
-      top: 45%;
+      top: 43%;
       left: 60%;
       background: black;
       width: 15%;
       height: 17%;
       border-radius: 50%;
+      border: 2px solid var(--raccoon-snout, lightgray);
     }
   
     .left-eye {
-      top: 45%;
+      top: 43%;
       left: 25%;
       background: black;
       width: 15%;
       height: 17%;
       border-radius: 50%;
+      border: 2px solid var(--raccoon-snout, lightgray);
     }
   
     /* .sparkle {
@@ -443,7 +471,7 @@ h1 {
     .right-inner-ear-shadow {
       top: 1%;
       left: 70%;
-      background: #ce9e74;
+      background: var(--raccoon-dark-fur, black);
       width: 20%;
       height: 25%;
       border-radius: 50% 50% 50% 50%;
@@ -454,7 +482,7 @@ h1 {
     .left-inner-ear-shadow {
       top: 1%;
       left: 9%;
-      background: #ce9e74;
+      background: var(--raccoon-dark-fur, black);
       width: 20%;
       height: 25%;
       border-radius: 50% 50% 50% 50%;
@@ -513,7 +541,7 @@ h1 {
     .snout-bottom {
       top: 60%;
       left: 37.5%;
-      background: #ce9e74;
+      background: var(--raccoon-skin, gray);
       width: 25%;
       height: 20%;
       border-radius: 50%;
