@@ -15,7 +15,7 @@ h2 {
   text-align: center;
 }
 h1 {
-  text-shadow: 1px 1px #ff0c7e;
+  text-shadow: 1px 1px #0cc6ff;
   text-transform: uppercase;
 }
 
@@ -330,9 +330,9 @@ h1 {
       top: -41%;
       left: 95%;
       background: var(--raccoon-dark-fur, black);
-      width: 30%;
+      width: 35%;
       height: 60%;
-      border-radius: 30% 30% 360% 125%;
+      border-radius: 10% 30% 360% 125%;
       transform: rotate(224deg);
       /* z-index: -1;
       animation-duration: 3s;
@@ -390,40 +390,40 @@ h1 {
 
   /* EYES STYLES */
   .right-mask {
-    top: 38%;
+    top: 35%;
     left: 0%;
     background: var(--raccoon-dark-fur, #414E5F);
     width: 45%;
-    height: 25%;
+    height: 27%;
     border-radius: 50%;
     transform: rotate(8deg);
   }
   .left-mask {
-    top: 38%;
+    top: 35%;
     left: 55%;
     background: #414E5F;
     width: 45%;
-    height: 25%;
+    height: 27%;
     border-radius: 50%;
     transform: rotate(352deg);
   }
   
     .right-eye {
-      top: 43%;
+      top: 40%;
       left: 60%;
       background: black;
       width: 15%;
-      height: 17%;
+      height: 16%;
       border-radius: 50%;
       border: 2px solid var(--raccoon-snout, lightgray);
     }
   
     .left-eye {
-      top: 43%;
-      left: 25%;
+      top: 40%;
+      left: 23%;
       background: black;
       width: 15%;
-      height: 17%;
+      height: 16%;
       border-radius: 50%;
       border: 2px solid var(--raccoon-snout, lightgray);
     }
@@ -447,67 +447,68 @@ h1 {
   
     /* EARS STYLES */
     .right-ear {
-      top: -1%;
+      top: 1%;
       left: 67%;
       background: var(--raccoon-belly, orange);
       width: 25%;
       height: 30%;
-      border-radius: 50% 50% 50% 50%;
-      transform: rotate(-80deg);
+      border-radius: 50% 90% 60% 90%;
+      /* border-radius: 30% 30% 360% 125%; */
+      transform: rotate(-90deg);
       /* z-index: -2222; */
     }
   
     .left-ear {
-      top: -1%;
+      top: 1%;
       left: 7%;
       background: var(--raccoon-belly, orange);
       width: 25%;
       height: 30%;
-      border-radius: 50% 50% 50% 50%;
-      transform: rotate(80deg);
+      border-radius: 90% 65% 90% 60%;
+      transform: rotate(90deg);
       /* z-index: -2222; */
     }
 
     .right-inner-ear-shadow {
-      top: 1%;
+      top: 3%;
       left: 70%;
       background: var(--raccoon-dark-fur, black);
       width: 20%;
       height: 25%;
-      border-radius: 50% 50% 50% 50%;
-      transform: rotate(-80deg);
+      border-radius: 50% 90% 60% 90%;
+      transform: rotate(-90deg);
       /* z-index: -2222; */
     }
   
     .left-inner-ear-shadow {
-      top: 1%;
+      top: 4%;
       left: 9%;
       background: var(--raccoon-dark-fur, black);
       width: 20%;
       height: 25%;
-      border-radius: 50% 50% 50% 50%;
-      transform: rotate(80deg);
+      border-radius: 90% 65% 90% 60%;
+      transform: rotate(90deg);
       /* z-index: -2222; */
     }
 
     .right-inner-ear {
-      top: 6%;
-      left: 74%;
+      top: 6.5%;
+      left: 73%;
       background: var(--raccoon-snout, orange);
-      width: 15%;
-      height: 20%;
-      border-radius: 50% 50% 50% 50%;
-      transform: rotate(-80deg);
+      width: 17%;
+      height: 20.5%;
+      border-radius: 50% 90% 60% 90%;
+      transform: rotate(-90deg);
     }
   
     .left-inner-ear {
-      top: 6%;
-      left: 11%;
+      top: 7%;
+      left: 10%;
       background: var(--raccoon-snout, orange);
       width: 15%;
       height: 20%;
-      border-radius: 50% 50% 50% 50%;
-      transform: rotate(80deg);
+      border-radius: 90% 65% 90% 60%;
+      transform: rotate(90deg);
     }
 
     /* END EARS STYLES */
@@ -515,7 +516,7 @@ h1 {
     .blush-right {
       top: 63%;
       left: 15%;
-      background: #ffadbc;
+      background: #ffc1cc;
       width: 15%;
       height: 10%;
       border-radius: 50%;
@@ -524,7 +525,7 @@ h1 {
     .blush-left {
       top: 63%;
       left: 70%;
-      background: #ffadbc;
+      background: #ffc1cc;
       width: 15%;
       height: 10%;
       border-radius: 50%;
@@ -558,7 +559,7 @@ h1 {
   
     body {
       /* background:#c6faf1; */
-      background-color: #c6ffe4;
+      background-color: #ffe8c6;
     }
   
     .raccoon * {
