@@ -64,46 +64,46 @@ h1 {
 }
   
 .belly {
-      top: 60%;
-      left: 2.5%;
-      background: var(--raccoon-belly, white);
-      width: 95%;
-      height: 100%;
-      border-radius: 120% 120% 100% 100%;
+  top: 60%;
+  left: 2.5%;
+  background: var(--raccoon-belly, white);
+  width: 95%;
+  height: 100%;
+  border-radius: 120% 120% 100% 100%;
 }
   
 .raccoon-top {
-      top: 10%;
-      left: 25%;
-      background: var(--raccoon-skin, gray);
-      width: 50%;
-      height: 45%;
-      border-radius: 70% 70% 60% 60%;
+  top: 10%;
+  left: 25%;
+  background: var(--raccoon-skin, gray);
+  width: 50%;
+  height: 45%;
+  border-radius: 70% 70% 60% 60%;
 }
 
 .raccoon-bottom {
-      top: 40%;
-      left: 23.5%;
-      background: var(--raccoon-skin, gray);
-      width: 53%;
-      height: 45%;
-      border-radius: 70% 70% 100% 100%;
+  top: 40%;
+  left: 23.5%;
+  background: var(--raccoon-skin, gray);
+  width: 53%;
+  height: 45%;
+  border-radius: 70% 70% 100% 100%;
 }
   
 .right-hand {
-      top: 5%;
-      left: 25%;
-      background: var(--raccoon-skin, black);
-      width: 30%;
-      height: 60%;
-      border-radius: 30% 30% 120% 30%;
-      transform: rotate(130deg);
-      z-index: -1;
-      animation-duration: 3s;
-      animation-name: wave;
-      animation-iteration-count: infinite;
-      transform-origin:0% 0%;
-      animation-timing-function: linear;
+  top: 5%;
+  left: 25%;
+  background: var(--raccoon-skin, black);
+  width: 30%;
+  height: 60%;
+  border-radius: 30% 30% 120% 30%;
+  transform: rotate(130deg);
+  z-index: -1;
+  animation-duration: 3s;
+  animation-name: wave;
+  animation-iteration-count: infinite;
+  transform-origin:0% 0%;
+  animation-timing-function: linear;
 }
   
 @keyframes wave {
@@ -122,68 +122,68 @@ h1 {
 }
   
 .left-hand {
-      top: 0%;
-      left: 75%;
-      background: var(--raccoon-skin, gray);
-      width: 30%;
-      height: 60%;
-      border-radius: 30% 30% 30% 120%;
-      transform: rotate(-45deg);
-      z-index: -1;
+  top: 0%;
+  left: 75%;
+  background: var(--raccoon-skin, gray);
+  width: 30%;
+  height: 60%;
+  border-radius: 30% 30% 30% 120%;
+  transform: rotate(-45deg);
+  z-index: -1;
 }
 
 .tail {
-      top: -41%;
-      left: 95%;
-      background: var(--raccoon-dark-fur, black);
-      width: 35%;
-      height: 60%;
-      border-radius: 10% 30% 360% 125%;
-      transform: rotate(224deg);
-      /* z-index: -1;
-      animation-duration: 3s;
-      animation-name: wave;
-      animation-iteration-count: infinite;
-      transform-origin:0% 0%;
-      animation-timing-function: linear; */
+  top: -41%;
+  left: 95%;
+  background: var(--raccoon-dark-fur, black);
+  width: 35%;
+  height: 60%;
+  border-radius: 10% 30% 360% 125%;
+  transform: rotate(224deg);
+  /* z-index: -1;
+  animation-duration: 3s;
+  animation-name: wave;
+  animation-iteration-count: infinite;
+  transform-origin:0% 0%;
+  animation-timing-function: linear; */
 }
 .stripe1 {
-      background: var(--raccoon-skin, gray);
-      width: 96%;
-      height: 15%;
-      top: 20%;
-      border-radius: 30% 90% 45% 90%;
-      /* transform: skew(75%); */
+  background: var(--raccoon-skin, gray);
+  width: 96%;
+  height: 15%;
+  top: 20%;
+  border-radius: 30% 90% 45% 90%;
+  /* transform: skew(75%); */
 }
 .stripe2 {
-      background: var(--raccoon-skin, gray);
-      width: 93%;
-      height: 12%;
-      top: 50%;
-      border-radius: 30% 90% 45% 90%;
-      /* transform: skew(75%); */
+  background: var(--raccoon-skin, gray);
+  width: 93%;
+  height: 12%;
+  top: 50%;
+  border-radius: 30% 90% 45% 90%;
+  /* transform: skew(75%); */
 }
 .stripe3 {
-      background: var(--raccoon-skin, gray);
-      width: 74%;
-      height: 10%;
-      top: 75%;
-      border-radius: 30% 90% 45% 90%;
-      /* transform: skew(75%); */
+  background: var(--raccoon-skin, gray);
+  width: 74%;
+  height: 10%;
+  top: 75%;
+  border-radius: 30% 90% 45% 90%;
+  /* transform: skew(75%); */
 }
   
-.right-feet {
-      top: 80%;
-      left: 65%;
-      background: var(--raccoon-nose, black);
-      width: 15%;
-      height: 30%;
-      border-radius: 50% 50% 50% 50%;
-      transform: rotate(-80deg);
-      z-index: -2222;
+.right-foot {
+  top: 80%;
+  left: 65%;
+  background: var(--raccoon-nose, black);
+  width: 15%;
+  height: 30%;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(-80deg);
+  z-index: -2222;
 }
   
-.left-feet {
+.left-foot {
   top: 80%;
   left: 20%;
   background: var(--raccoon-nose, black);
@@ -213,6 +213,7 @@ h1 {
   border-radius: 50%;
   transform: rotate(352deg);
 }
+
   
 .right-eye {
   top: 40%;
@@ -243,133 +244,133 @@ h1 {
       border-radius: 50%;
     } */
 .sparkle {
-      top: 25%;
-      left: 15%;
-      background: white;
-      width: 35%;
-      height: 35%;
-      border-radius: 50%;
+  top: 25%;
+  left: 15%;
+  background: white;
+  width: 35%;
+  height: 35%;
+  border-radius: 50%;
 } 
   
 /* EARS STYLES */
 .right-ear {
-      top: 1%;
-      left: 67%;
-      background: var(--raccoon-belly, white);
-      width: 25%;
-      height: 30%;
-      border-radius: 50% 90% 60% 90%;
-      /* border-radius: 30% 30% 360% 125%; */
-      transform: rotate(-90deg);
-      /* z-index: -2222; */
+  top: 1%;
+  left: 67%;
+  background: var(--raccoon-belly, white);
+  width: 25%;
+  height: 30%;
+  border-radius: 50% 90% 60% 90%;
+  /* border-radius: 30% 30% 360% 125%; */
+  transform: rotate(-90deg);
+  /* z-index: -2222; */
 }
   
 .left-ear {
-      top: 1%;
-      left: 7%;
-      background: var(--raccoon-belly, white);
-      width: 25%;
-      height: 30%;
-      border-radius: 90% 65% 90% 60%;
-      transform: rotate(90deg);
-      /* z-index: -2222; */
+  top: 1%;
+  left: 7%;
+  background: var(--raccoon-belly, white);
+  width: 25%;
+  height: 30%;
+  border-radius: 90% 65% 90% 60%;
+  transform: rotate(90deg);
+  /* z-index: -2222; */
 }
 
 .right-inner-ear-shadow {
-      top: 3%;
-      left: 70%;
-      background: var(--raccoon-dark-fur, black);
-      width: 20%;
-      height: 25%;
-      border-radius: 50% 90% 60% 90%;
-      transform: rotate(-90deg);
-      /* z-index: -2222; */
+  top: 3%;
+  left: 70%;
+  background: var(--raccoon-dark-fur, black);
+  width: 20%;
+  height: 25%;
+  border-radius: 50% 90% 60% 90%;
+  transform: rotate(-90deg);
+  /* z-index: -2222; */
 }
   
 .left-inner-ear-shadow {
-      top: 4%;
-      left: 9%;
-      background: var(--raccoon-dark-fur, black);
-      width: 20%;
-      height: 25%;
-      border-radius: 90% 65% 90% 60%;
-      transform: rotate(90deg);
-      /* z-index: -2222; */
+  top: 4%;
+  left: 9%;
+  background: var(--raccoon-dark-fur, black);
+  width: 20%;
+  height: 25%;
+  border-radius: 90% 65% 90% 60%;
+  transform: rotate(90deg);
+  /* z-index: -2222; */
 }
 
 .right-inner-ear {
-      top: 6.5%;
-      left: 73%;
-      background: var(--raccoon-snout, lightgray);
-      width: 17%;
-      height: 20.5%;
-      border-radius: 50% 90% 60% 90%;
-      transform: rotate(-90deg);
+  top: 6.5%;
+  left: 73%;
+  background: var(--raccoon-snout, lightgray);
+  width: 17%;
+  height: 20.5%;
+  border-radius: 50% 90% 60% 90%;
+  transform: rotate(-90deg);
 }
   
 .left-inner-ear {
-      top: 7%;
-      left: 10%;
-      background: var(--raccoon-snout, lightgray);
-      width: 15%;
-      height: 20%;
-      border-radius: 90% 65% 90% 60%;
-      transform: rotate(90deg);
+  top: 7%;
+  left: 10%;
+  background: var(--raccoon-snout, lightgray);
+  width: 15%;
+  height: 20%;
+  border-radius: 90% 65% 90% 60%;
+  transform: rotate(90deg);
 }
 
 /* END EARS STYLES */
 
 .blush-right {
-      top: 63%;
-      left: 15%;
-      background: #ffc1cc;
-      width: 15%;
-      height: 10%;
-      border-radius: 50%;
+  top: 63%;
+  left: 15%;
+  background: #ffc1cc;
+  width: 15%;
+  height: 10%;
+  border-radius: 50%;
 }
   
 .blush-left {
-      top: 63%;
-      left: 70%;
-      background: #ffc1cc;
-      width: 15%;
-      height: 10%;
-      border-radius: 50%;
+  top: 63%;
+  left: 70%;
+  background: #ffc1cc;
+  width: 15%;
+  height: 10%;
+  border-radius: 50%;
 }
   
 .snout-top {
-      top: 60%;
-      left: 39%;
-      background: var(--raccoon-snout, lightgray);
-      width: 22%;
-      height: 15%;
-      border-radius: 50%;
+  top: 60%;
+  left: 39%;
+  background: var(--raccoon-snout, lightgray);
+  width: 22%;
+  height: 15%;
+  border-radius: 50%;
 }
 .snout-bottom {
-      top: 60%;
-      left: 37.5%;
-      background: var(--raccoon-skin, gray);
-      width: 25%;
-      height: 20%;
-      border-radius: 50%;
+  top: 60%;
+  left: 37.5%;
+  background: var(--raccoon-skin, gray);
+  width: 25%;
+  height: 20%;
+  border-radius: 50%;
 }
   
 .nose {
-      top: 65%;
-      left: 44%;
-      background: var(--raccoon-nose, black);
-      width: 11%;
-      height: 8%;
-      border-radius: 50%;
+  top: 65%;
+  left: 44%;
+  background: var(--raccoon-nose, black);
+  width: 11%;
+  height: 8%;
+  border-radius: 50%;
 }
   
 body {
-      /* background:#c6faf1; */
-      background-color: #ffe8c6;
+  /* background:#c6faf1; */
+  background-color: #ffe8c6;
 }
   
 .raccoon * {
-      position: absolute;
+  position: absolute;
 }
 
 /* END RACCOON STYLES */
