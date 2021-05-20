@@ -46,20 +46,20 @@ h1 {
 }
   
 .right-cheek {
-  top: 15%;
+  top: 17%;
   left: 35%;
   background: var(--raccoon-belly, white);
   width: 60%;
-  height: 70%;
+  height: 65%;
   border-radius: 70% 70% 60% 60%;
 }
   
 .left-cheek {
-  top: 15%;
+  top: 17%;
   left: 5%;
   background: var(--raccoon-belly, white);
   width: 60%;
-  height: 70%;
+  height: 65%;
   border-radius: 70% 70% 60% 60%;
 }
   
@@ -196,12 +196,12 @@ h1 {
 
 /* EYES STYLES */
 .right-mask {
-  top: 35%;
+  top: 32%;
   left: 0%;
   background: var(--raccoon-dark-fur, #414E5F);
   width: 45%;
-  height: 27%;
-  border-radius: 50%;
+  height: 28%;
+  border-radius: 90% 75% 50% 75%;
   transform: rotate(8deg);
 }
 .right-tuft1 {
@@ -226,14 +226,33 @@ h1 {
   -ms-transform: rotate(338deg) skew(24deg, 10deg);
   transform: rotate(338deg) skew(24deg, 10deg);
 }
+.right-eyebrow {
+  top: 29%;
+  left: 2%;
+  background: var(--raccoon-snout, lightgray);
+  width: 44.25%;
+  height: 25%;
+  border-radius: 75% 90% 40% 50%;
+  transform: rotate(17deg);
+}
 
+.left-eyebrow {
+  top: 27%;
+  left: 55%;
+  background: var(--raccoon-snout, lightgray);
+  width: 42%;
+  height: 25%;
+  border-radius: 75% 90% 40% 50%;
+  transform: rotate(335deg);
+  /* transform: skewY(5deg); */
+}
 .left-mask {
-  top: 35%;
+  top: 32%;
   left: 55%;
   background: var(--raccoon-dark-fur, #414E5F);
   width: 45%;
-  height: 27%;
-  border-radius: 50%;
+  height: 28%;
+  border-radius: 75% 90% 75% 50%;
   transform: rotate(352deg);
 }
 .left-tuft1 {
