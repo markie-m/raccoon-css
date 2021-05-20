@@ -69,7 +69,8 @@ h1 {
   background: var(--raccoon-belly, white);
   width: 95%;
   height: 100%;
-  border-radius: 120% 120% 100% 100%;
+  /* border-radius: 120% 120% 100% 100%; */
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
   
 .raccoon-top {
@@ -87,7 +88,8 @@ h1 {
   background: var(--raccoon-skin, gray);
   width: 53%;
   height: 45%;
-  border-radius: 70% 70% 100% 100%;
+  /* border-radius: 70% 70% 100% 100%; */
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
   
 .right-hand {
@@ -196,12 +198,12 @@ h1 {
 
 /* EYES STYLES */
 .right-mask {
-  top: 32%;
-  left: 0%;
+  top: 31%;
+  left: 1%;
   background: var(--raccoon-dark-fur, #414E5F);
-  width: 45%;
-  height: 28%;
-  border-radius: 90% 75% 50% 75%;
+  width: 44%;
+  height: 30%;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
   transform: rotate(8deg);
 }
 .right-tuft1 {
@@ -227,38 +229,41 @@ h1 {
   transform: rotate(338deg) skew(24deg, 10deg);
 }
 .right-eyebrow {
-  top: 29%;
-  left: 2%;
-  background: var(--raccoon-snout, lightgray);
-  width: 44.25%;
-  height: 25%;
-  border-radius: 75% 90% 40% 50%;
-  transform: rotate(17deg);
-}
-
-.left-eyebrow {
   top: 27%;
-  left: 55%;
+  left: 2.5%;
   background: var(--raccoon-snout, lightgray);
   width: 42%;
-  height: 25%;
-  border-radius: 75% 90% 40% 50%;
-  transform: rotate(335deg);
-  /* transform: skewY(5deg); */
+  height: 33%;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  /* transform: rotate(17deg); */
+  transform: skewY(7deg);
+}
+.left-eyebrow {
+  top: 27%;
+  left: 56%;
+  background: var(--raccoon-snout, lightgray);
+  width: 42%;
+  height: 33%;
+  /* border-radius: 75% 90% 40% 50%; */
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  /* transform: rotate(335deg); */
+  transform: skewY(353deg);
 }
 .left-mask {
-  top: 32%;
+  top: 31%;
   left: 55%;
   background: var(--raccoon-dark-fur, #414E5F);
-  width: 45%;
-  height: 28%;
-  border-radius: 75% 90% 75% 50%;
+  /* background: var(--raccoon-skin, gray); */
+  width: 44%;
+  height: 30%;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
   transform: rotate(352deg);
 }
 .left-tuft1 {
   top: 52px;
-  left: 143px;
+  left: 142px;
   background: var(--raccoon-dark-fur, #414E5F);
+  /* background-color: var(--raccoon-skin, gray); */
   width: 9px;
   height: 7px;
   border: 1px solid var(--raccoon-skin, gray);
@@ -270,16 +275,38 @@ h1 {
 top: 57px;
 left: 143px;
 background: var(--raccoon-dark-fur, #414E5F);
+/* background-color: var(--raccoon-skin, gray); */
 width: 9px;
 height: 7px;
 border: 1px solid var(--raccoon-skin, gray);
+/* border: 1px solid var(--raccoon-dark-fur, #414E5F); */
 -webkit-transform: rotate(122deg) skew(24deg, 10deg);
 -ms-transform: rotate(122deg) skew(24deg, 10deg);
 transform: rotate(122deg) skew(24deg, 10deg);
 }
 
+.left-eye-shadow {
+  top: 35%;
+  left: 58%;
+  width: 30%;
+  height: 26%;
+  background-color: var(--raccoon-skin, gray);
+  /* background-color: var(--raccoon-dark-fur, #414E5F); */
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  transform: rotate(355deg);
+}
+.right-eye-shadow {
+  top: 34.75%;
+  left: 12.5%;
+  width: 30%;
+  height: 26%;
+  background-color: var(--raccoon-skin, gray);
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  /* border-radius values before the slash set the horizontal radius and values after the slash set the vertical radius! */
+  transform: rotate(5deg);
+}
   
-.right-eye {
+.left-eye {
   top: 40%;
   left: 60%;
   background: black;
@@ -289,7 +316,7 @@ transform: rotate(122deg) skew(24deg, 10deg);
   border: 2px solid var(--raccoon-snout, lightgray);
 }
   
-.left-eye {
+.right-eye {
   top: 40%;
   left: 23%;
   background: black;
