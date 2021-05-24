@@ -454,6 +454,14 @@ transform: rotate(122deg) skew(24deg, 10deg);
   height: 8%;
   border-radius: 50%;
 }
+.shine {
+  top: 15%;
+  left: 35%;
+  background: white;
+  width: 29%;
+  height: 26%;
+  border-radius: 50%;
+} 
   
 body {
   /* background:#c6faf1; */
