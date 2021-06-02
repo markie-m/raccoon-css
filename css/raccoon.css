@@ -91,21 +91,69 @@ h1 {
   /* border-radius: 70% 70% 100% 100%; */
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
-  
-.right-hand {
+
+/* ARMS/HANDS STYLES */
+.right-arm {
   top: 5%;
   left: 29%;
   background: var(--raccoon-skin, black);
   width: 30%;
-  height: 60%;
+  height: 40%;
   border-radius: 30% 30% 120% 30%;
   transform: rotate(130deg);
   z-index: -1;
   animation-duration: 3s;
-  animation-name: wave;
+  /* animation-name: wave; */
   animation-iteration-count: infinite;
   transform-origin:0% 0%;
   animation-timing-function: linear;
+}
+.right-forearm {
+  top: 85%;
+  left: 9%;
+  background: var(--raccoon-nose, black);
+  width: 30%;
+  height: 30%;
+  border-radius: 49% 51% 49% 51% / 9% 9% 91% 91%;
+  z-index: -1;
+}
+.right-hand {
+  top: 105%;
+  left: 9%;
+  background: var(--raccoon-nose, black);
+  width: 30%;
+  height: 30%;
+  border-radius: 51% 49% 51% 49% / 65% 65% 35% 35%;
+}
+.right-finger {
+  background: var(--raccoon-nose, black);
+  width: 25%;
+  height: 45%;
+  border-radius: 49% 51% 49% 51% / 35% 35% 65% 65%;
+}
+#finger1.right-finger {
+  top: 95%;
+  left: 11%;
+  transform: rotate(12deg);
+}
+#finger2.right-finger {
+  top: 95%;
+  left: 52.1%;
+  transform: rotate(353deg);
+}
+#finger3.right-finger {
+  top: 72%;
+  left: 81%;
+  transform: rotate(333deg);
+}
+.right-thumb {
+  top: 63%;
+  left: -30%;
+  background: var(--raccoon-nose, black);
+  width: 30%;
+  height: 40%;
+  border-radius: 49% 51% 49% 51% / 35% 35% 65% 65%;
+  transform: rotate(58deg);
 }
   
 @keyframes wave {
@@ -123,17 +171,72 @@ h1 {
   }
 }
   
-.left-hand {
-  top: 0%;
+.left-arm {
+  top: 10%;
   left: 75%;
   background: var(--raccoon-skin, gray);
   width: 30%;
-  height: 60%;
+  height: 40%;
   border-radius: 30% 30% 30% 120%;
   transform: rotate(-45deg);
   z-index: -1;
 }
+.left-forearm {
+  top: 88%;
+  left: 60%;
+  background: var(--raccoon-nose, black);
+  width: 30%;
+  height: 30%;
+  border-radius: 49% 51% 49% 51% / 9% 9% 91% 91%;
+  transform: rotate(1deg);
+  z-index: -1;
+}
+.left-hand {
+  top: 110%;
+  left: 61%;
+  background: var(--raccoon-nose, black);
+  width: 30%;
+  height: 30%;
+  border-radius: 51% 49% 51% 49% / 65% 65% 35% 35%;
+  /* transform: rotate(-45deg); */
+  z-index: -1;
+}
+.left-finger {
+  background: var(--raccoon-nose, black);
+  width: 25%;
+  height: 45%;
+  border-radius: 49% 51% 49% 51% / 35% 35% 65% 65%;
+}
+#finger1.left-finger {
+  top: 95%;
+  left: 11%;
+  transform: rotate(12deg);
+}
+#finger2.left-finger {
+  top: 95%;
+  left: 51%;
+  transform: rotate(353deg);
+}
+#finger3.left-finger {
+  top: 72%;
+  left: 77%;
+  transform: rotate(333deg);
+}
+.left-thumb {
+  top: 80%;
+  left: -18%;
+  background: var(--raccoon-nose, black);
+  width: 30%;
+  height: 40%;
+  /* border-radius: 49% 51% 49% 51% / 35% 35% 65% 65%; */
+  border-radius: 10% 30% 130% 90%;
+  transform: rotate(33deg);
+}
 
+/* END ARMS/HANDS STYLES */
+
+
+/* TAIL STYLES */
 .tail {
   top: -41%;
   left: 95%;
