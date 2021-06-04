@@ -103,7 +103,7 @@ h1 {
   transform: rotate(130deg);
   z-index: -1;
   animation-duration: 3s;
-  /* animation-name: wave; */
+  animation-name: wave;
   animation-iteration-count: infinite;
   transform-origin:0% 0%;
   animation-timing-function: linear;
@@ -114,7 +114,7 @@ h1 {
   background: var(--raccoon-nose, black);
   width: 30%;
   height: 30%;
-  border-radius: 49% 51% 49% 51% / 9% 9% 91% 91%;
+  border-radius: 49% 51% 49% 51% / 22% 22% 78% 78%;
   z-index: -1;
 }
 .right-hand {
@@ -129,7 +129,8 @@ h1 {
   background: var(--raccoon-nose, black);
   width: 25%;
   height: 45%;
-  border-radius: 49% 51% 49% 51% / 35% 35% 65% 65%;
+  /* border-radius: 49% 51% 49% 51% / 35% 35% 65% 65%; */
+  border-radius: 30% 30% 110% 90%;
 }
 #finger1.right-finger {
   top: 95%;
@@ -152,7 +153,8 @@ h1 {
   background: var(--raccoon-nose, black);
   width: 30%;
   height: 40%;
-  border-radius: 49% 51% 49% 51% / 35% 35% 65% 65%;
+  /* border-radius: 49% 51% 49% 51% / 35% 35% 65% 65%; */
+  border-radius: 10% 30% 130% 90%;
   transform: rotate(58deg);
 }
   
@@ -185,9 +187,11 @@ h1 {
   top: 88%;
   left: 60%;
   background: var(--raccoon-nose, black);
+  /* background: var(--raccoon-dark-fur, black); */
   width: 30%;
   height: 30%;
-  border-radius: 49% 51% 49% 51% / 9% 9% 91% 91%;
+  /* border-radius: 49% 51% 49% 51% / 9% 9% 91% 91%; */
+  border-radius: 49% 51% 49% 51% / 22% 22% 78% 78%;
   transform: rotate(1deg);
   z-index: -1;
 }
@@ -195,6 +199,7 @@ h1 {
   top: 110%;
   left: 61%;
   background: var(--raccoon-nose, black);
+  /* background: var(--raccoon-dark-fur, black); */
   width: 30%;
   height: 30%;
   border-radius: 51% 49% 51% 49% / 65% 65% 35% 35%;
@@ -203,9 +208,11 @@ h1 {
 }
 .left-finger {
   background: var(--raccoon-nose, black);
+  /* background: var(--raccoon-dark-fur, black); */
   width: 25%;
   height: 45%;
-  border-radius: 49% 51% 49% 51% / 35% 35% 65% 65%;
+  /* border-radius: 49% 51% 49% 51% / 35% 35% 65% 65%; */
+  border-radius: 30% 30% 90% 110%;
 }
 #finger1.left-finger {
   top: 95%;
@@ -223,14 +230,15 @@ h1 {
   transform: rotate(333deg);
 }
 .left-thumb {
-  top: 80%;
+  top: 65%;
   left: -18%;
   background: var(--raccoon-nose, black);
+  /* background: var(--raccoon-dark-fur, black); */
   width: 30%;
   height: 40%;
   /* border-radius: 49% 51% 49% 51% / 35% 35% 65% 65%; */
   border-radius: 10% 30% 130% 90%;
-  transform: rotate(33deg);
+  transform: rotate(29deg);
 }
 
 /* END ARMS/HANDS STYLES */
